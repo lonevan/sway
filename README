@@ -1,0 +1,25 @@
+Support:
+
+    jQuery 1.7+
+
+Tips: 
+
+    if you're using jq old version, just replace the EventAttachment 'on' to 'live' or 'delegate' on L80
+
+Useage:
+
+$(selector).sway({
+    tree: 'tree selector', // must be selector's parents,default is parent
+    css:{
+        position: 'absolute', // monkey's style
+        width: 1,
+        overflow: 'hidden',
+        backgroundColor: '#DF0000'
+    },
+    gravity: 'h', // h(orizontal) or v(ertical) default is V  - optional
+    banana: 'banana selector' // the monkey init on it, always like: a.selected - optional
+});
+
+Demo:
+    http://coochu.com/recipe/630
+
