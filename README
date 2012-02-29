@@ -17,7 +17,9 @@ $(selector).sway({
         backgroundColor: '#DF0000'
     },
     gravity: 'h', // h(orizontal) or v(ertical) default is V  - optional
-    banana: 'banana selector' // the monkey init on it, always like: a.selected - optional
+    banana: 'banana selector', // the monkey init on it, always like: a.selected - optional
+    stay: false, // monkey disapper when mouseleave the selector, default is false
+    duration: 300
 });
 
 Demo:
